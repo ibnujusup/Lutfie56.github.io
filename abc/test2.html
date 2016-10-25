@@ -25,8 +25,9 @@ div#form {
 
    h1 {
     font-size: xx-large;
-    margin-top: 25px;
+    margin-top: -16px;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 
 h2 {
@@ -92,16 +93,17 @@ div#footer {
     margin-bottom: 40px;
 }
 
-div#su {
-    font-size: larger;
-    font-weight: bold;
+input[type="sign up"] {
+    width: 160px;
+    height: 58px;
     box-sizing: border-box;
-    border: 3px white;
-    background: #86ef8e;
-    width: 106px;
+    border: 1px solid grey;
+    background: #a2d87a;
+    border-radius: 6px;
     text-align: center;
-    height: 50px;
-    padding: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+    cursor: pointer;
 }
 
 	</style>
@@ -123,9 +125,9 @@ div#su {
 		<br>
 		<input type="emel" name="emel" placeholder="Email or mobile number">
 		<br>
-		<input type="emel" name="emel" placeholder="Email or mobile number">
+		<input type="emel" name="emel" placeholder=" Re-enter email or mobile number">
 		<br>
-		<input type="pw" name="password" placeholder="Password">
+		<input type="pw" name="password" placeholder="New password">
 		<br>
 		</div>
 		
@@ -147,8 +149,10 @@ div#su {
 	</div>
 	<div id="footer">
 		<p>By clicking Sign Up, you agree to our Terms and that you have<br> read our Data Policy, including our Cookie Use</p>
-	</div>
-		<div id="su">Sign Up</div>
+	</div id= su>
+		<input type="sign up" name=sign up" placeholder="Sign Up"> 
+
+</div>
 </div>
 </body>
 </html>
