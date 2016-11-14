@@ -1,0 +1,217 @@
+section#home {
+    background: url(../images/homebg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: #fff;
+    padding-top: 60px;
+    
+}
+
+#home h1 {
+    font-weight: 400;
+    font-size: 36px;
+    height: 51px;
+    width: 161px;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 44px;
+    text-align: center;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 30px/1 FontAwesome;
+    font-size: 30px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;}
+
+
+    section#about {
+        background: url(../images/aboutbg2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        color: #fff;
+    }
+
+
+    .container.text-center {
+        padding-top: 138px;
+    }
+
+    #about h3 {
+        font-size: 14px;
+        font-weight: 100;
+    }
+
+   section#services { 
+   		display: block;
+    }
+
+	#services h3 {
+		color: #873fb5;
+   		font-weight: 100
+   	}
+
+    #services .service-title {padding: 50px 0;}
+
+    #services i {
+        font-size: 40px;
+        color: #c1c1c1;
+        border-right: 2px solid #c1c1c1;
+        padding-right: 20px;
+    }
+
+    #services h2{ 
+    	font-weight: 900;
+    	font-size:24px; }
+
+    #services h4{ 
+    	color: #873fb5;
+    margin-top: -8px; 
+    }
+
+    #services .service-header{
+    	display: inline-block;
+    	margin-top: -20px;
+    	padding-left: 20px;
+    }
+
+    #services .container .coll{
+    	padding-bottom: 40px;
+    }
+
+    section#skills{
+    	background: url(../images/skillsbg.png);
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-position: center;
+    	height: 467px; 
+
+    }
+
+    #skills .skill-left{
+    	padding: 110px 0;
+    }
+
+    #skills h2{
+    	font-weight: 900;
+    	font-size: 48px;
+    	color: #fff;
+    	
+
+    }
+
+    #skills h3{
+    	font-weight: 400;
+    	font-size: 24
+    	px;
+    	color: #fff;
+    	padding-bottom: 20px;
+    	margin-top: -10px;
+    }
+
+    #skills p{
+    	color: #fff;
+    	padding-bottom: 20px
+    	font-weight: 100; 
+
+    }
+
+    #skills .button1{
+    	color: #fff;
+    	font-size: 16px;
+    	text-decoration: none;
+    	padding-bottom: 10px;
+
+    }
+
+    #skills .button1:hover{
+    	color: #873fb5;
+    	border-bottom: 1px solid #873fb5;
+    }
+    	
+
+    #skills .button2{
+    	color: #fff;
+    	font-size: 16px;
+    	margin-left: 15px;
+    	text-decoration: none;
+    	padding-bottom: 10px;
+
+    }
+
+    #skills .button2:hover{
+    	color: #873fb5;
+    	border-bottom: 1px solid #873fb5;
+	}
+
+
+    section#portfolio { 
+    	height: 700px;
+    }
+
+    #portfolio h3 { 
+    	font-weight:100;
+    	font-size: 24px;
+    	padding-top: 20px;
+    	padding-bottom: 20px; 
+     }	 
+
+	#portfolio .one{ 
+		background: url(../images/off1.png);
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position: center;
+	    height: 300px; 
+	}   
+
+	#portfolio .two{ 
+		background: url(../images/off2.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		height: 300px; 
+	}   
+
+
+	#portfolio .three{ 
+		background: url(../images/off3.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		height: 300px; 
+	}   
+
+	#portfolio .four{ 
+		background: url(../images/off4.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		height: 300px; 
+	}   
+
+
+	#portfolio .five{ 
+		background: url(../images/off5.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		height: 300px; 
+	}   
+
+	#portfolio .six{ 
+		background: url(../images/off6.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		height: 300px; 
+	}   
