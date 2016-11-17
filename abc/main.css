@@ -1,29 +1,37 @@
+body {
+	font-family: 'lato',sans-serif;
+    color: #111;
+    position: relative;
+    overflow: hidden;
+
+}
 section#home {
     background: url(../images/homebg1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 500px;
     color: #fff;
-    padding-top: 60px;
+    padding-top: 40px;
     
 }
 
 #home h1 {
-    font-weight: 400;
-    font-size: 36px;
+    font-weight: 100;
+    font-size: 48px;
     height: 51px;
-    width: 161px;
+    width: 195px;
     box-sizing: border-box;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding-top: 10px;
-    padding-bottom: 44px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding-top: 4px;
+    padding-bottom: 64px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
     display: inline-block;
 }
 
+#home h3 {font-weight: 100}
 
 .fa {
     display: inline-block;
@@ -38,17 +46,25 @@ section#home {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        height: 450px;
+        height: 400px;
         color: #fff;
     }
 
 
     .container.text-center {
-        padding-top: 138px;
+        padding-top: 100px;
     }
 
+    #about h1 {
+    	font-size: 24px;
+    	font-weight: 100;
+    }
+
+	#about hr { width: 10%;
+	 }
+
     #about h3 {
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 100;
     }
 
@@ -112,8 +128,7 @@ section#home {
 
     #skills h3{
     	font-weight: 400;
-    	font-size: 24
-    	px;
+    	font-size: 24px;
     	color: #fff;
     	padding-bottom: 20px;
     	margin-top: -10px;
@@ -121,7 +136,8 @@ section#home {
 
     #skills p{
     	color: #fff;
-    	padding-bottom: 20px
+    	padding-bottom: 20px;
+    	font-size: 14px;
     	font-weight: 100; 
 
     }
@@ -154,64 +170,194 @@ section#home {
     	border-bottom: 1px solid #873fb5;
 	}
 
+	#skills .skill-right {
+
+		padding: 100px 50px;
+	}
+
+	#skills h4 {
+		color: #fff;
+	}
+
+	#skills progress {
+	    height: 30px;
+        width: 300px;
+	    opacity: 0.5;
+	}
+
+	#skills .progress-bar {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#793a94+1,8d4563+100 */
+background: #793a94; /* Old browsers */
+background: -moz-linear-gradient(top,  #793a94 1%, #8d4563 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #793a94 1%,#8d4563 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #793a94 1%,#8d4563 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#793a94', endColorstr='#8d4563',GradientType=0 ); /* IE6-9 */
+
+	}
 
     section#portfolio { 
     	height: 700px;
     }
 
     #portfolio h3 { 
-    	font-weight:100;
+    	font-weight:400;
     	font-size: 24px;
-    	padding-top: 20px;
-    	padding-bottom: 20px; 
+    	text-align: center; 
+        color: #fff;
+
      }	 
 
-	#portfolio .one{ 
-		background: url(../images/off1.png);
+	#portfolio img {
+    height: 300px;
+    width: 431px;
+}
+
+	#portfolio col-md-4 {
+		padding: 0;
+	}
+
+	#portfolio .portfolio-thumb .overlay{
+		background: #8d4563;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+        text-align: center;
+        padding: 0;
+	}
+
+	#portfolio .portfolio-thumb{
+        height: 270px;
+        max-width: 390px;
+        overflow: hidden;
+        padding: 0;
+        margin: 0 auto;
+
+    }
+
+    #portfolio .portfolio-thumb img {
+        width: 100%;
+        height:100%;
+    }
+
+    #portfolio .portfolio-overlay {
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        position: absolute;
+        background: #8d4563;
+        opacity: 0;
+            }
+        
+        #portfolio .portfolio-thumb:hover .overlay{
+            opacity: 0.75;
+        }
+	#portfolio h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+
+    }
+    
+    #portfolio i {
+        color: #fff;
+        font-size: 30px;
+        bottom: 0;
+        right: 0;
+        cursor: pointer;
+    }
+	
+
+	section#statistic {
+		height: 350px;
+	}
+
+	
+	
+	#statistics .one {
+    background: url(../images/stats1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+
+    #statistics .two {
+    background: url(../images/stats2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}    
+    
+		#statistics .three {
+	    background: url(../images/stats3.png);
 	    background-repeat: no-repeat;
 	    background-size: cover;
 	    background-position: center;
-	    height: 300px; 
-	}   
+	    height: 300px;
+	}
 
-	#portfolio .two{ 
-		background: url(../images/off2.png);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		height: 300px; 
-	}   
+	    #statistics .four {
+	    background: url(../images/stats4.png);
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position: center;
+	    height: 300px;
+	}    	
+
+    #statistics i {
+        color: #fff;
+        font-size: 30px;
+        padding-top: 30px;
+        padding-left: 130px;
+    }
+
+#statistics h5{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+}
+
+#statistics h6{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
 
 
-	#portfolio .three{ 
-		background: url(../images/off3.png);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		height: 300px; 
-	}   
-
-	#portfolio .four{ 
-		background: url(../images/off4.png);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		height: 300px; 
-	}   
 
 
-	#portfolio .five{ 
-		background: url(../images/off5.png);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		height: 300px; 
-	}   
+div#cidp, div#cidl {
+    width: 430px;
+    height: 532px;
+    box-sizing: border-box;
+    border: 10px #d61414;
+    border-style: double;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: larger;
+    padding: 15px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 32px;
+    background: rgba(245, 249, 4, 0.98);
+    box-shadow: 10px 10px 10px rgba(81, 82, 4, 0.58);
+}
 
-	#portfolio .six{ 
-		background: url(../images/off6.png);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		height: 300px; 
-	}   
+div#cidp:hover {
+    background: #6ecea6;
+}
+
+
+	
